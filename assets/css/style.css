@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    font-family: 'Inter';
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login {
+    justify-content: space-between;
+}
+.menu, .login {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.menu li, .login li {
+    list-style: none;  
+}
+
+.menu li a:hover {
+    border-bottom: 3px solid #ED661F;
+}
+
+#getstarted {
+    background-color: #ED661F;
+    padding: 18px;
+}
+
+#login {
+    padding: 18px;
+    /* margin-right: 20px; */
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+@media (max-width: 768px) {
+
+    .menu { 
+     display:none;
+     position: absolute;
+     background-color:black;
+     right: 0;
+     left: 0;
+     text-align: center;
+     padding: 16px 0;
+    }
+
+    .menu li a:hover {
+        display: inline-block;
+        border-bottom: 3px solid #ED661F;
+        transition: 0.3s ease;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
