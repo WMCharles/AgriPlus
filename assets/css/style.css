@@ -201,7 +201,7 @@ input[type=checkbox]{
     right: 55px;
 }
 
-.see-all span, .read-more span {
+.see-all #arrow, .read-more #arrow {
     position: relative;
     color: #ED661F;
     font-size: 45px;
