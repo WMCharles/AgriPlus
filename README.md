@@ -1,7 +1,7 @@
 # AgriPlus
 
 + [Description](#description)
-+ [Technologies Used](#technologies-used)
++ [Technologies Used](#technolgies-used)
 + [Live Demo](#live-demo)
 + [Intro Section](#intro-section)
 + [Popular Items](#popular-items)
