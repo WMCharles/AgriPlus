@@ -11,6 +11,8 @@ body {
 h1 {
     font-weight: 700;
 }
+
+
 .navbar {
     display: flex;
     font-family: 'Inter';
