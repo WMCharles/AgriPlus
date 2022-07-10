@@ -196,6 +196,19 @@ input[type=checkbox]{
     width: 100%;
 }
 
+.see-all {
+    float: right;
+    position: relative;
+    right: 55px;
+}
+
+.see-all span, .read-more span {
+    position: relative;
+    color: #ED661F;
+    font-size: 45px;
+    font-weight: 700;
+}
+
 .esteemed {
     padding: 30px;
     margin-top: 40px;
