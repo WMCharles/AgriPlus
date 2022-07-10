@@ -208,6 +208,11 @@ input[type=checkbox]{
     font-weight: 700;
 }
 
+#span {
+    border-bottom: 4px solid #ED661F;
+    padding: 0px 0px 5px 0px;
+}
+
 .esteemed {
     padding: 30px;
     margin-top: 40px;
