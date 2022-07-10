@@ -196,6 +196,68 @@ input[type=checkbox]{
     width: 100%;
 }
 
+.esteemed {
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+
+.rating #rating-content {
+    flex: 33%;
+    box-shadow: 1px 5px 7px grey;
+    margin-right: 30px;
+}
+
+.rating img {
+    width: 100px;
+}
+
+#rating-content > div {
+    padding: 15px;
+}
+
+.checked {
+    color: #ED661F;
+    margin: 10px;
+}
+
+.unchecked {
+    margin: 10px;
+}
+
+#farmer {
+    display: flex;
+    flex-direction: row;
+}
+
+#farmer div {
+    box-sizing: border-box;
+}
+
+#h6 {
+    padding: 13px;
+}
+
+#farmer div img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#star {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+
 @media (max-width: 768px) {
     
     .menu { 
