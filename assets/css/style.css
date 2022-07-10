@@ -354,14 +354,14 @@ input[type=checkbox]{
 }
 
 .footer p {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 #copyright {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     
     .menu { 
      display:none;
@@ -385,5 +385,17 @@ input[type=checkbox]{
 
     .hamburger {
         display: block;
+    }
+
+    .items, .products, .rating, #footer-2, #footer-details, .intro-1, .why-exist{
+        flex-direction: column;
+    }
+
+    .items, .products {
+        padding: 20px;
+    }
+
+    .items, .products {
+        margin-top: 20px;
     }
 }
